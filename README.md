@@ -1,16 +1,22 @@
-# exp2
+# Experiment 2: Login & Password Management
 
-A new Flutter project.
+**Objective:** Implement user authentication with form validation and screen navigation.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+A login system with credential validation and password reset functionality using shared state management.
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Data Modeling:** `UserData` class with static variables for credentials
+- **Input Handling:** `TextEditingController` to capture and clear user inputs
+- **Authentication:** Credential matching and password validation
+- **Navigation:** `Navigator.push` and `Navigator.pop` for screen transitions
+- **Feedback:** `SnackBar` alerts for errors and success messages
+- **Security:** `obscureText: true` for password fields
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](output/homepage.PNG)
+
+![alt text](output/loginpage.PNG)
+
+![alt text](output/resetPassword.PNG)
